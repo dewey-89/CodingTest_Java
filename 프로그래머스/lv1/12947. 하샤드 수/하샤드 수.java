@@ -1,7 +1,6 @@
 class Solution {
-    public boolean solution(int x) {
+   public boolean solution(int x) {
         boolean answer = true;
-        int xl = Integer.toString(x).length();
         int sum = 0;
         int temp = x;
         while(temp!=0){
